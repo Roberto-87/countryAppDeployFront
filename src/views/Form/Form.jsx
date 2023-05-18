@@ -36,7 +36,7 @@ const onHandlerSubmit=async (event)=>{
   /*   const[country]= country //revisar post */
     const allFormData= {nombre, duracion, dificultad,temporada, CountryId:country} 
 
-    const post= await axios.post('http://localhost:3001/activities',allFormData )
+    const post= await axios.post('/activities',allFormData )
  
 }
 
